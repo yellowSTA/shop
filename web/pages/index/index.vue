@@ -5,7 +5,7 @@
                 <i class="iconfont iconsousuo"></i>
                 <input class="input" type="text" confirm-type="search" placeholder="新疆特产和田大枣" />
             </view>
-            <i class="iconfont iconxiaoxi font_48"></i>
+            <icon class="iconfont iconxiaoxi font_48"></icon>
         </view>
         <!-- 轮播 -->
         <swiper class="swiper" :indicator-dots="true">
@@ -49,12 +49,18 @@
                 <text>更多<i class="iconfont iconright"></i></text>
             </view>
             <goods-one></goods-one>
+            <view class="goods-title">
+                <text>常规精品</text>
+                <text>更多<i class="iconfont iconright"></i></text>
+            </view>
+            <goods-two></goods-two>
         </view>
     </view>
 </template>
 
 <script>
     import GoodsOne from '../../components/goodsOne.vue'
+    import GoodsTwo from '../../components/goodsTwo.vue'
     export default {
         data() {
             return {
@@ -68,7 +74,8 @@
 
         },
         components: {
-            GoodsOne
+            GoodsOne,
+            GoodsTwo
         }
     }
 </script>

@@ -37,7 +37,7 @@
 <style>
 @import "colorui/main.css";
 @import "colorui/icon.css";
-@import url("https://at.alicdn.com/t/font_1570884_i1vbkvq5kt.css");
+@import url("static/css/iconfont.css");
 @import url("static/css/base.css");
     /*每个页面公共css */
 </style>
