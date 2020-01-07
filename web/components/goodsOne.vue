@@ -3,35 +3,44 @@
         <scroll-view class="scroll" scroll-x="true">
             <view class="list">
                 <view class="item">
-                    <image class="coverImg" mode="widthFix" src="http://placehold.it/260x260"></image>
+                    <image class="coverImg" src="http://via.placeholder.com/280X280/ccc"></image>
                     <view class="info">
                         <image mode="widthFix" class="tag" src="../../static/images/module_hot_icon.png"></image>
                         <view class="name">5斤装 云南腾冲特产大河型核桃</view>
                         <view class="other">
-                            <view class="s-red">¥ 48.8 </view>
-                            <view class="s-gray">2484人关注</view>
+                            <view class="price">
+                                <text class="fh">¥ </text>
+                                <text>18.8 </text>
+                            </view>
+                            <view class="num">2484人关注</view>
                         </view>
                     </view>
                 </view>
                 <view class="item">
-                    <image class="coverImg" mode="widthFix" src="http://placehold.it/260x260"></image>
+                    <image class="coverImg" src="http://via.placeholder.com/280X280/ccc"></image>
                     <view class="info">
                         <image mode="widthFix" class="tag" src="../../static/images/module_hot_icon.png"></image>
                         <view class="name">5斤装 云南腾冲特产大河型核桃</view>
                         <view class="other">
-                            <view class="price">¥ 48.8 </view>
-                            <view class="gg">2484人关注</view>
+                            <view class="price">
+                                <text class="fh">¥ </text>
+                                <text>18.8 </text>
+                            </view>
+                            <view class="num">2484人关注</view>
                         </view>
                     </view>
                 </view>
                 <view class="item">
-                    <image class="coverImg" mode="widthFix" src="http://placehold.it/260x260"></image>
+                    <image class="coverImg" src="http://via.placeholder.com/280X280/ccc"></image>
                     <view class="info">
                         <image mode="widthFix" class="tag" src="../../static/images/module_hot_icon.png"></image>
                         <view class="name">5斤装 云南腾冲特产大河型核桃</view>
                         <view class="other">
-                            <view class="price">¥ 48.8 </view>
-                            <view class="gg">2484人关注</view>
+                            <view class="price">
+                                <text class="fh">¥ </text>
+                                <text>18.8 </text>
+                            </view>
+                            <view class="num">2484人关注</view>
                         </view>
                     </view>
                 </view>
@@ -70,8 +79,8 @@
     overflow: hidden;
     .coverImg {
         display: block;
-        width: 100%;
-        height: auto;
+        width: 280rpx;
+        height: 280rpx;
         border-radius: 16rpx 16rpx 0 0;
     }
     .tag {
@@ -93,6 +102,20 @@
             margin-top: 14rpx;
             font-size: 20rpx;
         }
+    }
+    .price {
+        font-size: 28rpx;
+        font-weight: bold;
+        color: #FA4B4B;
+        .fh {
+            margin-right: 6rpx;
+            font-weight: normal;
+            font-size: 24rpx;
+        }
+    }
+    .num {
+        font-size: 20rpx;
+        color: #ccc;
     }
 }
 </style>

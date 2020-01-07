@@ -5,7 +5,7 @@
                 <i class="iconfont iconsousuo"></i>
                 <input class="input" type="text" confirm-type="search" placeholder="新疆特产和田大枣" />
             </view>
-            <icon class="iconfont iconxiaoxi font_48"></icon>
+            <i class="iconfont iconxiaoxi font_48"></i>
         </view>
         <!-- 轮播 -->
         <swiper class="swiper" :indicator-dots="true">
@@ -22,25 +22,25 @@
         <!-- 菜单 -->
         <view class="menus">
             <view class="item">
-                <image class="img" mode="widthFix" src="http://placehold.it/100x100"></image>
+                <image class="img" mode="widthFix" src="http://via.placeholder.com/100X100/ccc"></image>
                 <view>水果</view>
             </view>
             <view class="item">
-                <image class="img" mode="widthFix" src="http://placehold.it/100x100"></image>
+                <image class="img" mode="widthFix" src="http://via.placeholder.com/100X100/ccc"></image>
                 <view>特产</view>
             </view>
             <view class="item">
-                <image class="img" mode="widthFix" src="http://placehold.it/100x100"></image>
+                <image class="img" mode="widthFix" src="http://via.placeholder.com/100X100/ccc"></image>
                 <view>牛奶</view>
             </view>
             <view class="item">
-                <image class="img" mode="widthFix" src="http://placehold.it/100x100"></image>
+                <image class="img" mode="widthFix" src="http://via.placeholder.com/100X100/ccc"></image>
                 <view>当季</view>
             </view>
         </view>
         <!-- 推广广告 -->
         <view class="banner">
-            <image class="img" mode="widthFix" src="http://placehold.it/690x140"></image>
+            <image class="img" mode="widthFix" src="http://via.placeholder.com/690X140/ccc"></image>
         </view>
         <!-- 商品列表 -->
         <view class="goods">
@@ -54,6 +54,11 @@
                 <text>更多<i class="iconfont iconright"></i></text>
             </view>
             <goods-two></goods-two>
+            <view class="goods-title">
+                <text>活动产品</text>
+                <text>更多<i class="iconfont iconright"></i></text>
+            </view>
+            <goods-three></goods-three>
         </view>
     </view>
 </template>
@@ -61,6 +66,7 @@
 <script>
     import GoodsOne from '../../components/goodsOne.vue'
     import GoodsTwo from '../../components/goodsTwo.vue'
+    import GoodsThree from '../../components/goodsThree.vue'
     export default {
         data() {
             return {
@@ -75,7 +81,8 @@
         },
         components: {
             GoodsOne,
-            GoodsTwo
+            GoodsTwo,
+            GoodsThree
         }
     }
 </script>

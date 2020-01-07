@@ -1,4 +1,6 @@
-
+view, text, div, span, input, textarea {
+    box-sizing: border-box;
+}
 .f-center {
     text-align: center;
 }
