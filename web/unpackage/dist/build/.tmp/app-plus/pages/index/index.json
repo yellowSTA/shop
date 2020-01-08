@@ -1,7 +1,9 @@
 {
-  "navigationBarTitleText": "uni-app",
+  "navigationBarTitleText": "首页",
   "navigationStyle": "custom",
   "usingComponents": {
-    "goods-one": "/components/goodsOne"
+    "goods-one": "/components/goodsOne",
+    "goods-two": "/components/goodsTwo",
+    "goods-three": "/components/goodsThree"
   }
 }

@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/goodsOne":1,"components/goodsTwo":1};
+/******/ 		var cssChunks = {"components/goodsOne":1,"components/goodsThree":1,"components/goodsTwo":1,"components/bridge":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/goodsOne":"components/goodsOne","components/goodsTwo":"components/goodsTwo"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"components/goodsOne":"components/goodsOne","components/goodsThree":"components/goodsThree","components/goodsTwo":"components/goodsTwo","components/bridge":"components/bridge"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

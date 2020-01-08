@@ -44,8 +44,8 @@
 }
 .item .coverImg.data-v-0155455a {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 280rpx;
+    height: 280rpx;
     border-radius: 16rpx 16rpx 0 0;
 }
 .item .tag.data-v-0155455a {
@@ -71,5 +71,19 @@
               justify-content: space-between;
       margin-top: 14rpx;
       font-size: 20rpx;
+}
+.item .price.data-v-0155455a {
+    font-size: 28rpx;
+    font-weight: bold;
+    color: #FA4B4B;
+}
+.item .price .fh.data-v-0155455a {
+      margin-right: 6rpx;
+      font-weight: normal;
+      font-size: 24rpx;
+}
+.item .num.data-v-0155455a {
+    font-size: 20rpx;
+    color: #ccc;
 }
 

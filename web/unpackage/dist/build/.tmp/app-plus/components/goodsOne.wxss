@@ -24,16 +24,16 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.goods.data-v-3a6e0a10 {
+.goods.data-v-10e79a50 {
   margin: 20rpx -30rpx;
 }
-.scroll.data-v-3a6e0a10 {
+.scroll.data-v-10e79a50 {
   white-space: nowrap;
 }
-.scroll .list.data-v-3a6e0a10 {
+.scroll .list.data-v-10e79a50 {
     padding: 0 30rpx 20rpx 30rpx;
 }
-.item.data-v-3a6e0a10 {
+.item.data-v-10e79a50 {
   display: inline-block;
   width: 280rpx;
   margin-right: 20rpx;
@@ -42,27 +42,27 @@
   border-radius: 16rpx;
   overflow: hidden;
 }
-.item .coverImg.data-v-3a6e0a10 {
+.item .coverImg.data-v-10e79a50 {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 280rpx;
+    height: 280rpx;
     border-radius: 16rpx 16rpx 0 0;
 }
-.item .tag.data-v-3a6e0a10 {
+.item .tag.data-v-10e79a50 {
     display: block;
     width: 72rpx;
     height: auto;
 }
-.item .info.data-v-3a6e0a10 {
+.item .info.data-v-10e79a50 {
     padding: 10rpx;
 }
-.item .info .name.data-v-3a6e0a10 {
+.item .info .name.data-v-10e79a50 {
       margin-top: 6rpx;
       font-size: 24rpx;
       color: #383838;
       white-space: normal;
 }
-.item .info .other.data-v-3a6e0a10 {
+.item .info .other.data-v-10e79a50 {
       display: -webkit-box;
       display: -webkit-flex;
       display: flex;
@@ -71,5 +71,19 @@
               justify-content: space-between;
       margin-top: 14rpx;
       font-size: 20rpx;
+}
+.item .price.data-v-10e79a50 {
+    font-size: 28rpx;
+    font-weight: bold;
+    color: #FA4B4B;
+}
+.item .price .fh.data-v-10e79a50 {
+      margin-right: 6rpx;
+      font-weight: normal;
+      font-size: 24rpx;
+}
+.item .num.data-v-10e79a50 {
+    font-size: 20rpx;
+    color: #ccc;
 }
 

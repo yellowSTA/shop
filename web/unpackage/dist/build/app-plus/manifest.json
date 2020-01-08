@@ -35,7 +35,6 @@
     },
     "popGesture": "close",
     "launchwebview": {
-      "render": "always",
       "id": "1",
       "kernel": "WKWebview",
       "uni-app": "auto"
@@ -84,14 +83,50 @@
       }
     },
     "allowsInlineMediaPlayback": true,
+    "safearea": {
+      "background": "#FFFFFF",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
     "uni-app": {
-      "compilerVersion": "2.4.6",
+      "compilerVersion": "2.5.1",
       "control": "v8",
       "nvueCompiler": "uni-app",
       "renderer": "auto",
       "nvue": {
         "flex-direction": "column"
       }
+    },
+    "tabBar": {
+      "color": "#333333",
+      "selectedColor": "#D55643",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/images/home_normal.png",
+          "selectedIconPath": "static/images/home_select.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/cart/cart",
+          "iconPath": "static/images/cart.png",
+          "selectedIconPath": "static/images/cart_active.png",
+          "text": "购物车"
+        },
+        {
+          "pagePath": "pages/mine/mine",
+          "iconPath": "static/images/my_normal.png",
+          "selectedIconPath": "static/images/my_select.png",
+          "text": "我的"
+        }
+      ],
+      "borderStyle": "rgba(0,0,0,0.4)",
+      "height": "50px",
+      "child": [
+        "lauchwebview"
+      ],
+      "selected": 0
     }
   }
 }

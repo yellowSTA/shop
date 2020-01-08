@@ -24,11 +24,11 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content.data-v-6fff310a {
+.content.data-v-534ed074 {
   padding: 100rpx 30rpx;
   background-color: #fff;
 }
-.header.data-v-6fff310a {
+.header.data-v-534ed074 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -43,7 +43,7 @@
   width: 100%;
   z-index: 100;
 }
-.header .search-box.data-v-6fff310a {
+.header .search-box.data-v-534ed074 {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -59,14 +59,14 @@
     border: 1px solid #ccc;
     border-radius: 20px;
 }
-.header .input.data-v-6fff310a {
+.header .input.data-v-534ed074 {
     height: 100%;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
             flex: 1;
     padding-left: 24rpx;
 }
-.swiper.data-v-6fff310a {
+.swiper.data-v-534ed074 {
   width: 100%;
   height: 400rpx;
   margin-top: 40rpx;
@@ -74,30 +74,30 @@
   box-shadow: 0 4px 20rpx rgba(181, 181, 181, 0.6);
   overflow: hidden;
 }
-.swiper .item.data-v-6fff310a {
+.swiper .item.data-v-534ed074 {
     width: 100%;
 }
-.swiper .img.data-v-6fff310a {
+.swiper .img.data-v-534ed074 {
     width: 100%;
     height: 100%;
     border-radius: 20rpx;
 }
-.menus.data-v-6fff310a {
+.menus.data-v-534ed074 {
   margin: 60rpx -30rpx 0 -30rpx;
   overflow: hidden;
 }
-.menus .item.data-v-6fff310a {
+.menus .item.data-v-534ed074 {
     display: inline-block;
     width: 186rpx;
     margin-bottom: 30rpx;
     text-align: center;
 }
-.menus .img.data-v-6fff310a {
+.menus .img.data-v-534ed074 {
     width: 100rpx;
     height: 100rpx;
     border-radius: 50%;
 }
-.banner.data-v-6fff310a {
+.banner.data-v-534ed074 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -107,11 +107,11 @@
   -webkit-align-items: center;
           align-items: center;
 }
-.banner .img.data-v-6fff310a {
+.banner .img.data-v-534ed074 {
     width: 100%;
     border-radius: 20rpx;
 }
-.goods-title.data-v-6fff310a {
+.goods-title.data-v-534ed074 {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -120,7 +120,7 @@
           justify-content: space-between;
   font-size: 32rpx;
 }
-.goods-title .iconfont.data-v-6fff310a {
+.goods-title .iconfont.data-v-534ed074 {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
 }
