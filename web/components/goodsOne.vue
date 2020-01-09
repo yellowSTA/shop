@@ -2,7 +2,7 @@
     <view class="goods">
         <scroll-view class="scroll" scroll-x="true">
             <view class="list">
-                <view class="item">
+                <navigator hover-class="none" url="/pages/goodsDetail/goodsDetail" class="item">
                     <image class="coverImg" src="http://via.placeholder.com/280X280/ccc"></image>
                     <view class="info">
                         <image mode="widthFix" class="tag" src="../../static/images/module_hot_icon.png"></image>
@@ -15,7 +15,7 @@
                             <view class="num">2484人关注</view>
                         </view>
                     </view>
-                </view>
+                </navigator>
                 <view class="item">
                     <image class="coverImg" src="http://via.placeholder.com/280X280/ccc"></image>
                     <view class="info">

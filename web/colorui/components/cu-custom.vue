@@ -6,6 +6,7 @@
 					<text class="cuIcon-back"></text>
 					<slot name="backText"></slot>
 				</view>
+                <slot name="left"></slot>
 				<view class="content" :style="[{top:StatusBar + 'px'}]">
 					<slot name="content"></slot>
 				</view>
@@ -65,5 +66,8 @@
 </script>
 
 <style>
-
+.topBar-bg1 {
+    background-color: #D55643;
+    color: #fff;
+}
 </style>

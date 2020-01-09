@@ -8,9 +8,28 @@
             }
         },
         {
+            "path": "pages/goodsDetail/goodsDetail",
+            "style": {
+                "navigationBarTitleText": "商品详情",
+                "navigationBarBackgroundColor": "#D55643",
+                "navigationBarTextStyle": "white",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        {
+            "path": "pages/goodsDetail/evaluate",
+            "style": {
+                "navigationBarTitleText": "评论",
+                "navigationBarBackgroundColor": "#D55643",
+                "navigationBarTextStyle": "white",
+                "backgroundColor": "#FFFFFF"
+            }
+        },
+        {
             "path": "pages/cart/cart",
             "style": {
-                "navigationBarTitleText": "购物车"
+                "navigationBarTitleText": "购物车",
+                "navigationStyle": "custom"
             }
         },
         {
