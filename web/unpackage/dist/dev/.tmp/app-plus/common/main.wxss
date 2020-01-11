@@ -4633,6 +4633,11 @@ scroll-view.cu-steps .cu-item {
 .icontop:before {
   content: "\E61C";
 }
+image { height:auto;
+}
+uni-radio-group {
+    display: block;
+}
 .f-center {
     text-align: center;
 }
@@ -4912,13 +4917,13 @@ scroll-view.cu-steps .cu-item {
     color: #fcba3d;
 }
 .s-red {
-    color: #FF004B;
+    color: #D55643;
 }
 .s-orange {
     color: #a4734a;
 }
 .s-maincolor {
-    color: #e31724;
+    color: #D0A56B;
 }
 .s-maingray {
     color: #b4b4b4;

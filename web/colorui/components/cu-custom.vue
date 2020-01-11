@@ -67,7 +67,11 @@
 
 <style>
 .topBar-bg1 {
-    background-color: #D55643;
+    background-color: #D0A56B;
     color: #fff;
+}
+.topBar-bg2 {
+    background-color: #fff;
+    color: #383838;
 }
 </style>

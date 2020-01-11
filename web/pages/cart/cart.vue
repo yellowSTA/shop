@@ -52,7 +52,7 @@
                 <text>合计:</text>
                 <text class="font_24 s-red">￥</text>
                 <text class="s-red font_34">88.00</text>
-                <view class="btn">结算(1)</view>
+                <navigator hover-class="none" url="/pages/sureOrder/sureOrder" class="btn">结算(1)</navigator>
             </template>
             <template v-else>
                 <text class="btn-del">删除</text>
@@ -159,7 +159,10 @@
         display: flex;
         align-items: center;
         position: fixed;
-        bottom: 100rpx;
+        bottom: 0;
+        /* #ifdef H5 */
+        bottom: 50px;
+        /* #endif */
         left: 0;
         width: 100%;
         height: 100rpx;

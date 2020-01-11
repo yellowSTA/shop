@@ -49,7 +49,7 @@
                 <i class="cuIcon-command"></i>
                 <view class="text">客服</view>
             </view>
-            <view class="item btn-add">加入购物车</view>
+            <view class="item btn-add" @click="$refs.popup.open()">加入购物车</view>
             <view class="item btn-buy">立即购买</view>
         </view>
         <!-- 加入购物车选择框 -->
@@ -89,7 +89,7 @@
                 </view>
                 <view class="others">
                     <text class="s-gray font_26">数量</text>
-                    <yp-number-box :min="1" :max="9"></yp-number-box>
+                    <yp-number-box :min="1" :value="1" :max="9"></yp-number-box>
                 </view>
                 <view class="btns">
                     <view class="btn">加入购物车</view>
@@ -299,10 +299,10 @@ export default {
         text-align: center;
         font-size: 30rpx;
         color: #fff;
-        background:rgba(255,130,87,1);
+        background: #E6BF73;
     }
     .btn-buy {
-        background-color: #D55643;
+        background-color: #D0A56B;
     }
 }
 </style>

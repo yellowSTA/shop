@@ -51,10 +51,10 @@
                             <image class="icon" mode="widthFix" src="../../static/images/mine-ticket.png"></image>
                             <view>卡券</view>
                         </view>
-                        <view class="item">
+                        <navigator hover-class="none" url="../address/list" class="item">
                             <image class="icon" mode="widthFix" src="../../static/images/mine-address.png"></image>
                             <view>收货地址</view>
-                        </view>
+                        </navigator>
                         <view class="item">
                             <image class="icon" mode="widthFix" src="../../static/images/mine-us.png"></image>
                             <view>关于我们</view>

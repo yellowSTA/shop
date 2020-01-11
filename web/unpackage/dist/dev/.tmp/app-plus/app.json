@@ -1,18 +1,22 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/goodsDetail/goodsDetail",
+    "pages/goodsDetail/evaluate",
     "pages/cart/cart",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/sureOrder/sureOrder",
+    "pages/address/list"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarBackgroundColor": "#fff",
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
     "color": "#333333",
-    "selectedColor": "#D55643",
+    "selectedColor": "#D0A56B",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -42,5 +46,7 @@
   },
   "appname": "shop-web",
   "compilerVersion": "2.5.1",
-  "usingComponents": {}
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
 }

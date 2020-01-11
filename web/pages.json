@@ -11,7 +11,7 @@
             "path": "pages/goodsDetail/goodsDetail",
             "style": {
                 "navigationBarTitleText": "商品详情",
-                "navigationBarBackgroundColor": "#D55643",
+                "navigationBarBackgroundColor": "#D0A56B",
                 "navigationBarTextStyle": "white",
                 "backgroundColor": "#FFFFFF"
             }
@@ -20,7 +20,7 @@
             "path": "pages/goodsDetail/evaluate",
             "style": {
                 "navigationBarTitleText": "评论",
-                "navigationBarBackgroundColor": "#D55643",
+                "navigationBarBackgroundColor": "#D0A56B",
                 "navigationBarTextStyle": "white",
                 "backgroundColor": "#FFFFFF"
             }
@@ -35,15 +35,35 @@
         {
             "path": "pages/mine/mine",
             "style": {
-                "navigationBarTitleText": "我的",
+                "navigationBarTitleText": "",
                 "navigationBarBackgroundColor": "#D0A56B",
                 "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/sureOrder/sureOrder",
+            "style": {
+                "navigationBarTitleText": "确认订单",
+                "navigationBarBackgroundColor": "#D0A56B",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/address/list",
+            "style": {
+                "navigationBarTitleText": "收货地址"
+            }
+        },
+        {
+            "path": "pages/address/add",
+            "style": {
+                "navigationBarTitleText": "添加收货地址"
             }
         }
     ],
     "tabBar": {
         "color": "#333333",
-        "selectedColor": "#D55643",
+        "selectedColor": "#D0A56B",
         "list": [
             {
                 "pagePath": "pages/index/index",
@@ -68,7 +88,7 @@
     "globalStyle": {
         "navigationBarTextStyle": "black",
         "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#F8F8F8",
+        "navigationBarBackgroundColor": "#fff",
         "backgroundColor": "#F8F8F8"
     }
 }

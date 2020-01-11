@@ -42,7 +42,7 @@
     "statusbar": {
       "immersed": "supportedDevice",
       "style": "dark",
-      "background": "#F8F8F8"
+      "background": "#fff"
     },
     "usingComponents": true,
     "nvueCompiler": "uni-app",
@@ -100,7 +100,7 @@
     },
     "tabBar": {
       "color": "#333333",
-      "selectedColor": "#D55643",
+      "selectedColor": "#D0A56B",
       "list": [
         {
           "pagePath": "pages/index/index",

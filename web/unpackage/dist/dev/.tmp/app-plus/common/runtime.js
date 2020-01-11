@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"components/goodsOne":1,"components/goodsThree":1,"components/goodsTwo":1,"components/bridge":1};
+/******/ 		var cssChunks = {"colorui/components/cu-custom":1,"components/goodsOne":1,"components/goodsThree":1,"components/goodsTwo":1,"components/yp-number-box/yp-number-box":1,"components/uni-popup/uni-popup":1,"components/bridge":1,"components/coupon":1,"components/uni-swipe-action-item/uni-swipe-action-item":1,"components/uni-transition/uni-transition":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"components/goodsOne":"components/goodsOne","components/goodsThree":"components/goodsThree","components/goodsTwo":"components/goodsTwo","components/bridge":"components/bridge"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"colorui/components/cu-custom":"colorui/components/cu-custom","components/goodsOne":"components/goodsOne","components/goodsThree":"components/goodsThree","components/goodsTwo":"components/goodsTwo","components/yp-number-box/yp-number-box":"components/yp-number-box/yp-number-box","components/uni-popup/uni-popup":"components/uni-popup/uni-popup","components/bridge":"components/bridge","components/coupon":"components/coupon","components/uni-swipe-action-item/uni-swipe-action-item":"components/uni-swipe-action-item/uni-swipe-action-item","components/uni-swipe-action/uni-swipe-action":"components/uni-swipe-action/uni-swipe-action","components/uni-transition/uni-transition":"components/uni-transition/uni-transition"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
