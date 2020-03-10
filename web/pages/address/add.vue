@@ -32,26 +32,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.m-form {
-    background-color: #fff;
-    padding: 0 30rpx;
-}
-.m-form .form-item {
-    display: flex;
-    align-items: center;
-    min-height: 100rpx;
-    font-size: 32rpx;
-    border-bottom: 1rpx solid #E2E2E2;
-}
-.m-form .input {
-    flex: 1;
-    height: 100%;
-    padding: 0 10rpx 0 20rpx;
-    text-align: right;
-}
-.m-form .area {
-    padding: 20rpx 0;
-}
 .btn-sure {
     width: 630rpx;
     height: 90rpx;
